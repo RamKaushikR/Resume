@@ -1,0 +1,185 @@
+% Ram Kaushik's Resume
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{fontawesome}
+\usepackage{xcolor}
+\usepackage[T1]{fontenc}
+\usepackage{tikz}
+\usepackage{graphicx}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+\vspace{-4pt}\scshape\raggedright\large\color{orange}
+}{}{0em}{}[\color{orange}\titlerule \vspace{-5pt}]
+
+\newcommand{\resumeItem}[2]{
+\item\small{
+\textbf{#1}{ #2 \vspace{-2pt} }
+}
+}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{-1pt}\item
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{#1} & #2 \\
+\textit{\small#3} & \textit{\small #4} \\
+\end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+% \begin{figure}[htbp]
+% \rightline{\includegraphics{photo.jpg}}
+% \end{figure}
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\color{orange} \textbf{{\Large Ram Kaushik R}} \\
+Chennai, India
+\textsc{\icon{\faPhone}} +91 9551236720 \\
+\textsc{\icon{\faEnvelope}} \href{mailto:rfram19@gmail.com}{rfram19@gmail.com}
+\textsc{\icon{\faEnvelope}} \href{mailto:ramkaushik17125@cse.ssn.edu.in}{ramkaushik17125@cse.ssn.edu.in} \\
+\textsc{\icon{\faGithub}} \href{https://github.com/RamKaushikR}{RamKaushikR}
+\textsc{\icon{\faLinkedin}}
+\href{https://www.linkedin.com/in/ramkaushik19}{ramkaushik19}
+\textsc{\icon{\faGoogle}}
+\href{https://scholar.google.com/citations?user=tg0wlt0AAAAJ}{Ram Kaushik R} \\
+% College Registration Number 312217104125
+\end{tabular*}
+
+\section{Summary}
+Student Placement Coordinator at SSN College of Engineering | ISB YLP Campus Ambassador | \\
+4th year CS Engineer, Top 5\%ile of the batch | Deep Learning \& Artificial Intelligence Enthusiast
+
+\section{Internships \& Co-Curriculars}
+\resumeSubHeadingListStart
+\resumeSubheading
+{SSN College of Engineering}{Chennai}
+{Student Placement Coordinator (SPC)}{Jan. 2020 - Present}
+\resumeItemListStart
+\resumeItem{}{\hspace{-7pt} Collaborated with the Head of Placements to enable recruiter outreach and functioned as the single Point-of-Contact for a batch of 200}
+\resumeItem{}{\hspace{-7pt} Strategized to improve placement opportunities for the increased batch size and streamlined the placement process to improve efficiency}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+\resumeSubHeadingListStart
+\resumeSubheading
+{Indian School of Business}{Hyderabad}
+{ISB YLP Campus Ambassador}{Dec. 2019 - Jul. 2020}
+\resumeItemListStart
+\resumeItem{}{\hspace{-7pt} Utilized social media platforms and Word-of-Mouth marketing to increase campus awareness about ISB's YLP}
+\resumeItem{}{\hspace{-7pt} Organized an information session at SSN, hosted by senior members of the ISB's admission team}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+\resumeSubHeadingListStart
+\resumeSubheading
+{CEWiT, IIT Madras Research Park}{Chennai}
+{Python Developer Intern}{May. 2019 - Jul. 2019}
+\resumeItemListStart
+\resumeItem{}{\hspace{-7pt} Developed testing software for the Access and Mobility Management Function of the 5G Core Network, \\
+part of the 5G Testbed project}
+\resumeItem{}{\hspace{-7pt} Tested working and interactions between other Network Functions in the 5G Core Network}
+\resumeItem{}{\hspace{-7pt} Used socket programming, networking and multi-threading concepts in the Python programming language}
+\resumeItem{}{\hspace{-7pt} Enabled rapid customizability of the software by leveraging Python's ease-of-use}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Publications}
+\resumeSubHeadingListStart
+\resumeItem{\href{http://ceur-ws.org/Vol-2380/paper_71.pdf}{\textsc{\icon{\faExternalLink}} Species Recommendation using Machine Learning:}}{Co-authored the working Notes for GeoLifeCLEF 2019, published in CEUR-WS. 2019. Achieved 3rd rank overall, with the best submission at 6th place out of 54. Developed a location-based species identification system from satellite images, as part of the ImageClef International Conference. Used multiple approaches to extract the image patches from the data, and several Machine learning \& Deep learning techniques to develop the models.}
+\resumeItem{\href{http://ceur-ws.org/Vol-2696/paper_139.pdf}{\textsc{\icon{\faExternalLink}} Plant Species Identification Using TransferLearning:}}{Led a team of 3 to participate in the challenge and co-authored a research paper. Developed an identifier system for plant species from images along with metadata, as part of the ImageCLEF International Conference. Used transfer learning approaches in order to obtain patterns in the images which identify species, and used representations from these trained models in order to obtain more accurate predictions.}
+\resumeSubHeadingListEnd
+
+\section{Achievements}
+\resumeSubHeadingListStart
+\resumeItem{\href{https://github.com/RamKaushikR/AIcrowd-Blitz-2}{\textsc{\icon{\faExternalLink}} AIcrowd Blitz 2:}}{Won 3rd place out of 244 teams in the 15 day challenge hosted on the AIcrowd Website. Demonstrated skills in 5 problems in varying fields of AI.}
+\resumeItem{Merit Scholarship:}{Achieved 10th Rank in the CSE Department at SSN College of Engineering, for semesters 3 \& 4.}
+\resumeItem{OSPC. 2019:}{Finalist in the OnSite Programming Contest event conducted during Prayatna 2k19, MIT, Chennai.}
+\resumeItem{IMO. 2016:}{City 1st, State 2nd and International 25th Rank in the International Mathematics Olympiad.}
+\resumeSubHeadingListEnd
+
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeItem{\href{https://github.com/RamKaushikR/SIH-2020}{\textsc{\icon{\faExternalLink}} SIH. 2020:}}{Developed a smart and foolproof attendance management system, as part of the Smart India Hackathon 2020. Implemented a  2 stage of verification process by making use of Geo-Tagging and Voice Recognition, to ensure authenticity of attendance}
+\resumeItem{\href{https://github.com/RamKaushikR/IDD}{\textsc{\icon{\faExternalLink}} IDD. 2019:}}{Developed a semantic segmentation model to identify different vehicles in a given image from the Indian Driving Dataset, as part of the National Computer Vision Pattern Recognition Image Processing and Graphics (NCVPRIPG) 2019 conference. Used multiple architectures like Fully Convolutional Networks(FCN), U-Net, along with transfer learning to enhance the performance of the models.}
+\resumeItem{\href{https://github.com/RamKaushikR/StockTrading}{\textsc{\icon{\faExternalLink}}Stock Trading Agent:}}{Developed Artificial Intelligence agents to buy/sell stocks on a particular day, and gain a significant profit margin. Incorporated Deep Q-Learning and Actor-Critic methods to develop the intelligent agents}
+\resumeSubHeadingListEnd
+
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Sri Sivasubramaniya Nadar College of Engineering}{Chennai}
+{B.E. Computer Science and Engineering; Affiliated to Anna University; GPA: 8.70 (6 semesters)}{2017 -- 2021}
+\resumeItemListStart
+\resumeItem{Innovation Cell, SSN:}{Organized and conducted information sessions on Machine Learning}
+\resumeItem{Member, Developer Student Club(DSC):}{Built mobile apps using Android Studio and implemented basic Machine Learning concepts}
+\resumeItem{Member, SSN Coding Community:}{Took part in contests on websites like Codechef \& Codeforces}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Skills}
+\resumeSubHeadingListStart
+\resumeItem{Artificial Intelligence:}{Keras, TensorFlow, PyTorch, OpenAI Gym, scikit-learn, OpenCV}
+\resumeItem{Programming Languages:}{Python, Git C, C++, Java, MATLAB, HTML, CSS, SQL}
+\resumeItem{Hardware:}{Arduino, Raspberry Pi}
+\resumeSubHeadingListEnd
+
+\section{Courses and Certifications}
+\resumeSubHeadingListStart
+\resumeItem{\href{https://www.coursera.org/account/accomplishments/specialization/certificate/GM2PFXFWUCYE}{\textsc{\icon{\faExternalLink}}Deep Learning Specialization:}}{deeplearning.ai, Coursera}
+% \resumeItem{\href{https://www.coursera.org/account/accomplishments/records/BXLPCRNVW6Y8}{\textsc{\icon{\faExternalLink}}Sequence Models:}}{deeplearning.ai, Coursera}
+% \resumeItem{\href{https://www.coursera.org/account/accomplishments/certificate/YWHCU3XZ8TYT}{\textsc{\icon{\faExternalLink}}Convolutional Neural Networks:}}{deeplearning.ai, Coursera}
+% \resumeItem{\href{https://www.coursera.org/account/accomplishments/certificate/8Q38E3Q3MSFQ}{\textsc{\icon{\faExternalLink}}Structuring Machine Learning Projects:}}{deeplearning.ai, Coursera}
+% \resumeItem{\href{https://www.coursera.org/account/accomplishments/certificate/LCES6FQ2P2E9}{\textsc{\icon{\faExternalLink}}Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization:}}{deeplearning.ai, Coursera}
+% \resumeItem{\href{https://www.coursera.org/account/accomplishments/records/4ZNWS2D4MUVH}{\textsc{\icon{\faExternalLink}} Neural Networks and Deep Learning:}}{deeplearning.ai, Coursera}
+\resumeItem{\href{https://www.coursera.org/account/accomplishments/verify/PPV8YWPGZSHB}{\textsc{\icon{\faExternalLink}} Machine Learning:}}{Stanford University, Coursera}
+\resumeItem{Reinforcement Learning:}{David Silver}
+\resumeItem{Machine Learning Crash Course:}{Google AI}
+% \resumeItem{Embedded Software Development:}{Workshop at SSN College of Engineering}
+% \resumeItem{Blockchain and Hyperledger:}{Workshop at SSN College of Engineering}
+\resumeItem{University Courses:}{Data Structures, Design \& Analysis of Algorithms, Object Oriented Programming, Theory of Computation, Linear Algebra, Probability \& Queuing Theory, Multi-Variable Calculus, Discrete Mathematics, Algebra \& Number Theory, Digital Principles, Microprocessors \& Microcontrollers, Computer Architecture, Operating Systems, Computer Networks}
+\resumeSubHeadingListEnd
+
+\section{Languages}
+\textbf{English} (Fluent) $\cdot$ \textbf{Tamil} (Native) $\cdot$ \textbf{Hindi} (Conversational) $\cdot$ \textbf{German} (Conversational)
+
+\section{Hobbies}
+I like to watch and play sports like football, cricket and tennis. Fan of science channels on YouTube like VSauce and Kurzgesagt
+
+\lfoot{\small Last Updated: 26th Aug 2020}
+
+\end{document}
